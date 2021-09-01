@@ -6,12 +6,121 @@
   padding: 0;
 }
 
-/* WIREFRAMES*/
+/* WIREFRAMES
 .frame {
   border: 1px solid red;
-}
+}*/
 
 body {
   font-family: "Poppins", sans-serif;
   font-size: 15px;
+  background-color: hsl(0, 0%, 98%);
+  margin: 20px 230px;
+}
+
+main {
+  width: 1200px;
+  height: 900px;
+  display: grid;
+  grid-template-columns: 400px 400px 400px;
+  grid-template-rows: 300px 600px;
+  grid-template-areas:
+    "mark mark mark"
+    "super tk calc";
+}
+.marketing {
+  grid-area: mark;
+  width: 1200px;
+  height: 300px;
+  text-align: center;
+}
+
+.delivery {
+  font-size: 38px;
+  color: hsl(234, 12%, 34%);
+}
+
+.tech {
+  font-size: 40px;
+  font-weight: 600;
+  color: hsl(234, 12%, 34%);
+}
+
+.ai {
+  font-size: 18px;
+  color: hsl(229, 6%, 66%);
+  margin-top: 15px;
+}
+
+.supervisor,
+.teamkarma,
+.calculator {
+  width: 400px;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.supervisor {
+  grid-area: super;
+}
+
+.teamkarma {
+  grid-area: tk;
+}
+
+.calculator {
+  grid-area: calc;
+}
+
+.card {
+  width: 350px;
+  height: 250px;
+  border-radius: 7px;
+  background-color: white;
+  box-shadow: 10px 10px 150px 0px hsl(234, 12%, 34%, 20%);
+}
+
+.sv {
+  margin-left: auto;
+  border-top: 4px solid hsl(180, 62%, 55%);
+}
+
+.team,
+.karma {
+  margin: 20px 0 0 24px;
+}
+
+.team {
+  border-top: 4px solid hsl(0, 78%, 62%);
+}
+
+.karma {
+  border-top: 4px solid hsl(34, 97%, 64%);
+}
+
+.calc {
+  margin-right: auto;
+  border-top: 4px solid hsl(212, 86%, 64%);
+}
+
+.heavy {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.light {
+  font-size: 14px;
+  font-weight: 400;
+  color: hsl(229, 6%, 66%);
+}
+
+.heavy,
+.light {
+  margin: 30px 30px;
+}
+
+img {
+  margin-left: 260px;
 }
