@@ -5,3 +5,13 @@
   margin: 0;
   padding: 0;
 }
+
+/* WIREFRAMES*/
+.frame {
+  border: 1px solid red;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+}
